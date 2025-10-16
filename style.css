@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: #4b2c45;
+    font-family: 'Jersey 15', sans-serif;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.instructions {
+    width: 220px;
+    background: #7c3f58;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.instructions h2 {
+    margin-top: 0;
+    color: #ffb2a6;
+}
+
+#board {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    width: 363px;
+    height: 585px;
+    background-image: url(image/foxyjumpbg.png);
+}
